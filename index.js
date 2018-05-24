@@ -15,11 +15,11 @@ function logShout(string) {
   }
 
 function sayHiToGrandma(string) {
-  if (string === lowerCase) {
+  if (string.toLowerCase()) {
     return "I can't hear you!";
-  } if (string === upperCase) {
+  } if (string.ToUpperCase()) {
     return "YES INDEED!";
-  } if (string === mixedCase) {
-    return "I love you, Grandma."
+  } if (string === "I love you, Grandma.") {
+    return "I love you, too."
   }
 }
