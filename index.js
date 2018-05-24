@@ -15,9 +15,9 @@ function logShout(string) {
   }
 
 function sayHiToGrandma(string) {
-  if (string.toLowerCase()) {
+  if (string.toUpperCase()) {
     return "I can't hear you!";
-  } if (string.ToUpperCase()) {
+  } if (string.ToLowerCase()) {
     return "YES INDEED!";
   } if (string === "I love you, Grandma.") {
     return "I love you, too."
